@@ -387,8 +387,10 @@ footer .cta-btn-alt:hover {
 
   /*Main*/
   #main {
-    height: 35vh;
-    width: 63.5vh;
+    width: 100%;
+  }
+  #main img {
+    width: 120%;
   }
   #main h3 {
     display: none;
