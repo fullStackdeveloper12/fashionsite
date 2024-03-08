@@ -396,10 +396,10 @@ footer .cta-btn-alt:hover {
     display: none;
   }
   #main h2 {
-  top: 10px;
+  display: none;
   }
   #main h4 {
-  top: 100px;
+  display: none;
   }
   #content {
     flex-direction: column;
