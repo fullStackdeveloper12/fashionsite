@@ -78,8 +78,7 @@ h6 {
 
 /*Main*/
 #main {
-  height: 130vh;
-  background-image: url("images/jane.jpeg");
+  width: 100%;
   background-size: cover;
   background-position: center;
   color: white;
@@ -87,20 +86,34 @@ h6 {
   justify-content: center;
   flex-direction: column;
   align-items: baseline;
+  position: relative;
+}
+#main img {
+  width: 100%;
+  position: relative;
 }
 #main h2 {
   font-size: 40px;
   margin: 15px 20px;
+  position: absolute;
+  left: 10px;
+  top: 300px;
 }
 #main h3 {
   font-size: 60px;
   margin: 15px 20px;
+  position: absolute;
+  left: 10px;
+  top: 400px;
 }
 #main h4 {
   color: black;
   background-color: grey;
   width: 100px;
   padding: 10px;
+  position: absolute;
+  left: 35px;
+  top: 550px;
 }
 /*Main-End*/
 
