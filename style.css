@@ -395,6 +395,13 @@ footer .cta-btn-alt:hover {
   #main h3 {
     display: none;
   }
+}
+#main h2 {
+  top: 10px;
+}
+#main h4 {
+  top: 100px;
+}
   #content {
     flex-direction: column;
   }
